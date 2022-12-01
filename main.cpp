@@ -48,7 +48,7 @@ int main(void)
 	const int LARGURA = 800;
 	const int ALTURA = 600;
 	glfwInit();
-	GLFWwindow* window = glfwCreateWindow(LARGURA, ALTURA, "Trabalho_03-Comp_Grafica", NULL, NULL);
+	GLFWwindow* window = glfwCreateWindow(LARGURA, ALTURA, "Trabalho_04-Comp_Grafica", NULL, NULL);
 	glfwMakeContextCurrent(window);
 	init(window);
 	float valor = 0.0;
