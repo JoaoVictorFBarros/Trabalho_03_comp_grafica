@@ -1,0 +1,10 @@
+^C:\USERS\JOAOV\ONEDRIVE\ÁREA DE TRABALHO\TRABALHO_3\CMAKELISTS.TXT
+setlocal
+D:\cmake\bin\cmake.exe "-SC:/Users/joaov/OneDrive/Área de Trabalho/Trabalho_3" "-BC:/Users/joaov/OneDrive/Área de Trabalho/Trabalho_3/build" --check-stamp-file "C:/Users/joaov/OneDrive/Área de Trabalho/Trabalho_3/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

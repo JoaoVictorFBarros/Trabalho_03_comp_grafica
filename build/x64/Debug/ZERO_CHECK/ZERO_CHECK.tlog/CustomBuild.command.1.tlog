@@ -1,0 +1,10 @@
+^C:\USERS\JOAOV\ONEDRIVE\ÁREA DE TRABALHO\TRABALHO_3\BUILD\CMAKEFILES\9C604FAD668DD7AD7C74AA6CE30F79CF\GENERATE.STAMP.RULE
+setlocal
+D:\cmake\bin\cmake.exe "-SC:/Users/joaov/OneDrive/Área de Trabalho/Trabalho_3" "-BC:/Users/joaov/OneDrive/Área de Trabalho/Trabalho_3/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/joaov/OneDrive/Área de Trabalho/Trabalho_3/build/Projeto3D.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

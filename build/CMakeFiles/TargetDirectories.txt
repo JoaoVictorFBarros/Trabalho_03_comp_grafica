@@ -1,0 +1,3 @@
+C:/Users/joaov/OneDrive/Área de Trabalho/Trabalho_3/build/CMakeFiles/Projeto3D.dir
+C:/Users/joaov/OneDrive/Área de Trabalho/Trabalho_3/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/joaov/OneDrive/Área de Trabalho/Trabalho_3/build/CMakeFiles/ZERO_CHECK.dir
